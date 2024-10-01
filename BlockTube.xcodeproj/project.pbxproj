@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9421555D2CAC252E009ACDB5 /* BlockTube Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9421555C2CAC252E009ACDB5 /* BlockTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942155472CAC252E009ACDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942155212CAC252D009ACDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942155282CAC252D009ACDB5;
+			remoteInfo = BlockTube;
+		};
+		942155512CAC252E009ACDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942155212CAC252D009ACDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942155282CAC252D009ACDB5;
+			remoteInfo = BlockTube;
+		};
+		9421555E2CAC252E009ACDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942155212CAC252D009ACDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9421555B2CAC252E009ACDB5;
+			remoteInfo = "BlockTube Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9421557B2CAC252E009ACDB5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9421555D2CAC252E009ACDB5 /* BlockTube Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		942155292CAC252D009ACDB5 /* BlockTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942155462CAC252E009ACDB5 /* BlockTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		942155502CAC252E009ACDB5 /* BlockTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9421555C2CAC252E009ACDB5 /* BlockTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BlockTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		942155762CAC252E009ACDB5 /* Exceptions for "BlockTube" folder in "BlockTube" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 942155282CAC252D009ACDB5 /* BlockTube */;
+		};
+		9421557A2CAC252E009ACDB5 /* Exceptions for "BlockTube Extension" folder in "BlockTube Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9421555B2CAC252E009ACDB5 /* BlockTube Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9421552B2CAC252D009ACDB5 /* BlockTube */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				942155762CAC252E009ACDB5 /* Exceptions for "BlockTube" folder in "BlockTube" target */,
+			);
+			path = BlockTube;
+			sourceTree = "<group>";
+		};
+		942155492CAC252E009ACDB5 /* BlockTubeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlockTubeTests;
+			sourceTree = "<group>";
+		};
+		942155532CAC252E009ACDB5 /* BlockTubeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlockTubeUITests;
+			sourceTree = "<group>";
+		};
+		942155602CAC252E009ACDB5 /* BlockTube Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9421557A2CAC252E009ACDB5 /* Exceptions for "BlockTube Extension" folder in "BlockTube Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "BlockTube Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942155262CAC252D009ACDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942155432CAC252E009ACDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421554D2CAC252E009ACDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942155592CAC252E009ACDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942155202CAC252D009ACDB5 = {
+			isa = PBXGroup;
+			children = (
+				9421552B2CAC252D009ACDB5 /* BlockTube */,
+				942155492CAC252E009ACDB5 /* BlockTubeTests */,
+				942155532CAC252E009ACDB5 /* BlockTubeUITests */,
+				942155602CAC252E009ACDB5 /* BlockTube Extension */,
+				9421552A2CAC252D009ACDB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9421552A2CAC252D009ACDB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942155292CAC252D009ACDB5 /* BlockTube.app */,
+				942155462CAC252E009ACDB5 /* BlockTubeTests.xctest */,
+				942155502CAC252E009ACDB5 /* BlockTubeUITests.xctest */,
+				9421555C2CAC252E009ACDB5 /* BlockTube Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942155282CAC252D009ACDB5 /* BlockTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9421557C2CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTube" */;
+			buildPhases = (
+				942155252CAC252D009ACDB5 /* Sources */,
+				942155262CAC252D009ACDB5 /* Frameworks */,
+				942155272CAC252D009ACDB5 /* Resources */,
+				9421557B2CAC252E009ACDB5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9421555F2CAC252E009ACDB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9421552B2CAC252D009ACDB5 /* BlockTube */,
+			);
+			name = BlockTube;
+			packageProductDependencies = (
+			);
+			productName = BlockTube;
+			productReference = 942155292CAC252D009ACDB5 /* BlockTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942155452CAC252E009ACDB5 /* BlockTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942155812CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTubeTests" */;
+			buildPhases = (
+				942155422CAC252E009ACDB5 /* Sources */,
+				942155432CAC252E009ACDB5 /* Frameworks */,
+				942155442CAC252E009ACDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942155482CAC252E009ACDB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				942155492CAC252E009ACDB5 /* BlockTubeTests */,
+			);
+			name = BlockTubeTests;
+			packageProductDependencies = (
+			);
+			productName = BlockTubeTests;
+			productReference = 942155462CAC252E009ACDB5 /* BlockTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9421554F2CAC252E009ACDB5 /* BlockTubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942155842CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTubeUITests" */;
+			buildPhases = (
+				9421554C2CAC252E009ACDB5 /* Sources */,
+				9421554D2CAC252E009ACDB5 /* Frameworks */,
+				9421554E2CAC252E009ACDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942155522CAC252E009ACDB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				942155532CAC252E009ACDB5 /* BlockTubeUITests */,
+			);
+			name = BlockTubeUITests;
+			packageProductDependencies = (
+			);
+			productName = BlockTubeUITests;
+			productReference = 942155502CAC252E009ACDB5 /* BlockTubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9421555B2CAC252E009ACDB5 /* BlockTube Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942155772CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTube Extension" */;
+			buildPhases = (
+				942155582CAC252E009ACDB5 /* Sources */,
+				942155592CAC252E009ACDB5 /* Frameworks */,
+				9421555A2CAC252E009ACDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				942155602CAC252E009ACDB5 /* BlockTube Extension */,
+			);
+			name = "BlockTube Extension";
+			packageProductDependencies = (
+			);
+			productName = "BlockTube Extension";
+			productReference = 9421555C2CAC252E009ACDB5 /* BlockTube Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942155212CAC252D009ACDB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					942155282CAC252D009ACDB5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					942155452CAC252E009ACDB5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 942155282CAC252D009ACDB5;
+					};
+					9421554F2CAC252E009ACDB5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 942155282CAC252D009ACDB5;
+					};
+					9421555B2CAC252E009ACDB5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 942155242CAC252D009ACDB5 /* Build configuration list for PBXProject "BlockTube" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942155202CAC252D009ACDB5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9421552A2CAC252D009ACDB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942155282CAC252D009ACDB5 /* BlockTube */,
+				942155452CAC252E009ACDB5 /* BlockTubeTests */,
+				9421554F2CAC252E009ACDB5 /* BlockTubeUITests */,
+				9421555B2CAC252E009ACDB5 /* BlockTube Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942155272CAC252D009ACDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942155442CAC252E009ACDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421554E2CAC252E009ACDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421555A2CAC252E009ACDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942155252CAC252D009ACDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942155422CAC252E009ACDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421554C2CAC252E009ACDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942155582CAC252E009ACDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942155482CAC252E009ACDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942155282CAC252D009ACDB5 /* BlockTube */;
+			targetProxy = 942155472CAC252E009ACDB5 /* PBXContainerItemProxy */;
+		};
+		942155522CAC252E009ACDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942155282CAC252D009ACDB5 /* BlockTube */;
+			targetProxy = 942155512CAC252E009ACDB5 /* PBXContainerItemProxy */;
+		};
+		9421555F2CAC252E009ACDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9421555B2CAC252E009ACDB5 /* BlockTube Extension */;
+			targetProxy = 9421555E2CAC252E009ACDB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		942155782CAC252E009ACDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTube Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockTube Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTube.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942155792CAC252E009ACDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlockTube Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BlockTube Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTube.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9421557D2CAC252E009ACDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockTube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9421557E2CAC252E009ACDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockTube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9421557F2CAC252E009ACDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		942155802CAC252E009ACDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942155822CAC252E009ACDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockTube";
+			};
+			name = Debug;
+		};
+		942155832CAC252E009ACDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockTube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockTube";
+			};
+			name = Release;
+		};
+		942155852CAC252E009ACDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockTube;
+			};
+			name = Debug;
+		};
+		942155862CAC252E009ACDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goddamnyouryan.BlockTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockTube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942155242CAC252D009ACDB5 /* Build configuration list for PBXProject "BlockTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9421557F2CAC252E009ACDB5 /* Debug */,
+				942155802CAC252E009ACDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942155772CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTube Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942155782CAC252E009ACDB5 /* Debug */,
+				942155792CAC252E009ACDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9421557C2CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9421557D2CAC252E009ACDB5 /* Debug */,
+				9421557E2CAC252E009ACDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942155812CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942155822CAC252E009ACDB5 /* Debug */,
+				942155832CAC252E009ACDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942155842CAC252E009ACDB5 /* Build configuration list for PBXNativeTarget "BlockTubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942155852CAC252E009ACDB5 /* Debug */,
+				942155862CAC252E009ACDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942155212CAC252D009ACDB5 /* Project object */;
+}
