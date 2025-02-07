@@ -388,6 +388,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q96524BWZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BlockTube Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "BlockTube Extension";
@@ -417,6 +418,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q96524BWZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BlockTube Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "BlockTube Extension";
@@ -448,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q96524BWZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockTube/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;
@@ -483,6 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q96524BWZL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockTube/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BlockTube;

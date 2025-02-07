@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
+    <script src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <h1>BlockTube Settings</h1>
+    <div>
+        <label>
+            <input type="checkbox" id="blockHomepage"> Block YouTube homepage
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="blockSubscriptions"> Block Subscriptions page
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="blockShorts"> Block Shorts page
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="blockEmbeddedShorts"> Block embedded Shorts
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="blockRecommendedVideos"> Block recommended videos
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="disableAutoplay"> Disable autoplay
+        </label>
+    </div>
+    <button id="save">Save Settings</button>
 </body>
 </html>

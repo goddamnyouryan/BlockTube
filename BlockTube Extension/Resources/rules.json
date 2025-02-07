@@ -1,0 +1,20 @@
+[
+     {
+       "id": 1,
+       "priority": 1,
+       "action": { "type": "block" },
+       "condition": {
+         "urlFilter": "||youtube.com/|",
+         "resourceTypes": ["main_frame"]
+       }
+     },
+     {
+       "id": 2,
+       "priority": 1,
+       "action": { "type": "block" },
+       "condition": {
+         "urlFilter": "||m.youtube.com/|",
+         "resourceTypes": ["main_frame"]
+       }
+     }
+   ]
