@@ -55,6 +55,7 @@
     }
 
     function applyBlockers() {
+        console.log("Apply Blockers")
         checkAndBlockHomepage();
         blockShortsAndSuggestions();
         cancelAutoplay();
