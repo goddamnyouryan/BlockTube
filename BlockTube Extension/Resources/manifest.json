@@ -16,10 +16,10 @@
      "content_scripts": [
        {
          "matches": ["*://*.youtube.com/*"],
-         "js": ["content.js"],
+         "js": ["youtube.js"],
          "run_at": "document_start"
        }
-     ], 
+     ],
      "icons": {
        "48": "icon-48.png",
        "96": "icon-96.png"
