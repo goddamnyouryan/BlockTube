@@ -32,7 +32,7 @@
        "priority": 1,
        "action": { "type": "block" },
        "condition": {
-         "urlFilter": "reddit.com",
+         "urlFilter": "||reddit.com/|",
          "resourceTypes": ["main_frame"]
        }
      }

@@ -2,7 +2,7 @@
      "manifest_version": 2,
      "name": "BlockTube",
      "version": "1.0",
-     "description": "Blocks distracting YouTube content including the homepage, subscriptions, shorts, embedded shorts, recommended videos, and autoplay.",
+     "description": "Blocks distracting content including the youtube homepage, subscriptions, shorts, embedded shorts, recommended videos, and autoplay.",
      "permissions": [
        "declarativeNetRequest"
      ],
@@ -17,11 +17,6 @@
        {
          "matches": ["*://*.youtube.com/*"],
          "js": ["youtube.js"],
-         "run_at": "document_start"
-       },
-       {
-         "matches": ["*://*.reddit.com/*"],
-         "js": ["reddit.js"],
          "run_at": "document_start"
        }
      ],
