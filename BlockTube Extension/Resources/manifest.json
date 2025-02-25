@@ -18,6 +18,11 @@
          "matches": ["*://*.youtube.com/*"],
          "js": ["youtube.js"],
          "run_at": "document_start"
+       },
+       {
+         "matches": ["*://*.reddit.com/*"],
+         "js": ["reddit.js"],
+         "run_at": "document_start"
        }
      ],
      "icons": {
