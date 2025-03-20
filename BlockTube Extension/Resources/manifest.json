@@ -3,16 +3,6 @@
      "name": "BlockTube",
      "version": "1.0",
      "description": "Blocks distracting content including the youtube homepage, subscriptions, shorts, embedded shorts, recommended videos, and autoplay.",
-     "permissions": [
-       "declarativeNetRequest"
-     ],
-     "declarative_net_request": {
-       "rule_resources": [{
-         "id": "ruleset_1",
-         "enabled": true,
-         "path": "rules.json"
-       }]
-     },
      "content_scripts": [
        {
          "matches": ["*://*.youtube.com/*"],
